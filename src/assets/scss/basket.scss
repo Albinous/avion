@@ -1,0 +1,37 @@
+.basket {
+  padding: 60px 0;
+
+  &-title {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  &-items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    // justify-content: center;
+  }
+
+  &-item {
+    display: flex;
+    // justify-content: space-around;
+
+    td {
+      width: 400px;
+      text-align: center;
+    }
+
+    img {
+      width: 200px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    h4 {
+      font-size: 17px;
+      color: coral;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import 'vars.scss';
+
+.hero {
+  background-image: url('../images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: 726px;
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 726px;
+    padding-bottom: 66px;
+  }
+
+  &-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 11px;
+  }
+
+  &-text {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  &-btns {
+    display: flex;
+    gap: 24px;
+  }
+
+  &-btn {
+    background-color: #fff;
+    color: $blue;
+    border: 2px solid #fff;
+  }
+}
+
+.main-2 {
+  background-image: url(../images/main-2.jpg);
+  height: 542px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

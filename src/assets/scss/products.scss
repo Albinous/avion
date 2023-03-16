@@ -1,0 +1,78 @@
+@import 'vars.scss';
+
+.products {
+  padding: 52px 0 120px;
+  &-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 67px;
+  }
+
+  &-title {
+    margin-bottom: 54px;
+  }
+
+  &-text {
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  &-btns {
+    display: flex;
+    gap: 24px;
+  }
+
+  &-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 45px 0;
+  }
+
+  &-item {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      color: $blue;
+      font-size: 12px;
+      line-height: 21px;
+      letter-spacing: 1.7px;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: coral;
+    }
+    
+    img {
+      width: 70%;
+      height: 250px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  &-more {
+    margin: 0 auto;
+  }
+}
